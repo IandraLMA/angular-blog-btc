@@ -1,0 +1,26 @@
+.container__footer {
+    background-color: aliceblue;
+}
+
+.container__footer>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.container__footer>ul>li {
+    margin-right: 20px;
+    list-style: none;
+    list-style-type: none;
+
+}
+
+.container__footer>hr {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.container__footer .redes {
+    font-size: 1rem;
+    font-weight: bold;
+}
